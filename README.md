@@ -1,5 +1,6 @@
 # Simple Data Warehouse using Python, Pandas, and SQLite3 🗄️
 (Whitney Gituara - 671528)
+
 This project shows **step by step** how to build a very simple **data warehouse** in Python.  
 This readme is beginner friendly.
 
