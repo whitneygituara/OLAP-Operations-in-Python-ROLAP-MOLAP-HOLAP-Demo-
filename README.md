@@ -1,44 +1,50 @@
-# Day-1 🚀
+# Simple Data Warehouse using Python, Pandas, and SQLite3 🗄️
 
-This repository contains a Jupyter Notebook titled **Day-1.ipynb**.  
-It documents the work, experiments, and learning progress made on the first day of this project.
+This project demonstrates how to create a **simple data warehouse** in Python using:
+
+- **SQLite3** for database management  
+- **Pandas** for data manipulation  
+- **Matplotlib / Seaborn** for visualization  
+
+The script connects to a SQLite database, creates tables from a DataFrame, performs basic data analysis, and generates visualizations.
 
 ---
 
-## 🧾 Project Overview
+## 🧾 Features
 
-The **Day-1 notebook** is designed to:
+The code includes the following functionality:
 
-- Introduce the project objectives.
-- Demonstrate step-by-step coding exercises.
-- Explore fundamental concepts using Python.
-- Provide explanations alongside the code to aid learning.
-
-This notebook is ideal for beginners who want to understand both **theory and practical coding examples** in a structured way.
+- ✅ Create a database connection (SQLite)  
+- ✅ Execute SQL queries  
+- ✅ Fetch and display data from tables  
+- ✅ Convert Pandas DataFrames into database tables  
+- ✅ Perform **basic data analysis** (head, info, describe, missing values)  
+- ✅ Visualize data using **bar, line, or scatter plots**  
 
 ---
 
 ## 📂 Repository Contents
 
-- `Day-1.ipynb` — The main Jupyter notebook for Day 1.
-- (Future files will be added here as the project continues.)
+- `Day-1.ipynb` — Jupyter Notebook version of the project  
+- `data_warehouse.db` — SQLite database file (created when running the script)  
+- `main.py` — Python script (if you extract the code into a `.py` file)  
 
 ---
 
 ## ⚙️ Requirements
 
-Before running the notebook, ensure you have:
+This project requires Python 3.8+ and the following libraries:
 
-- Python 3.8+
-- Jupyter Notebook or JupyterLab
-- Libraries used in this notebook:
-  - `numpy`
-  - `pandas`
-  - `matplotlib`
-  - `seaborn`
-  - (add more here if you used them)
+- `pandas`
+- `sqlite3` (built-in with Python)
+- `matplotlib`
+- `seaborn`
+- `numpy`
+- `datetime` (built-in with Python)
 
-You can install the requirements with:
+You can install external dependencies with:
 
 ```bash
+pip install pandas matplotlib seaborn numpy
+
 pip install -r requirements.txt
