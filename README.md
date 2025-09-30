@@ -32,6 +32,7 @@ Visualizations: Generated using Seaborn and Matplotlib.
 
 
 ⚙️ Features and Operations
+
 🔹 ROLAP (Relational OLAP)
 
 Runs SQL queries on a SQLite database.
