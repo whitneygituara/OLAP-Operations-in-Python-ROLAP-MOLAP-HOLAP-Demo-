@@ -5,6 +5,7 @@ Author : Whitney Gituara (ID: 528)
 # OLAP-Operations-in-Python-ROLAP-MOLAP-HOLAP-Demo-
 A practical Python demonstration of OLAP operations (ROLAP, MOLAP, HOLAP) with Pandas, SQLite, and visualizations.
 
+
 📖 Overview
 
 This repository demonstrates Online Analytical Processing (OLAP) concepts using Python.
@@ -20,6 +21,7 @@ HOLAP (Hybrid OLAP): Combining relational and multidimensional approaches.
 
 Visualizations are included for each method to help beginners understand how OLAP operations are applied in real-world scenarios.
 
+
 📂 What’s Inside
 
 olap_demo.ipynb / .py: Main script showing all OLAP operations.
@@ -27,6 +29,7 @@ olap_demo.ipynb / .py: Main script showing all OLAP operations.
 SQLite database: Created dynamically from sample employee and department data.
 
 Visualizations: Generated using Seaborn and Matplotlib.
+
 
 ⚙️ Features and Operations
 🔹 ROLAP (Relational OLAP)
