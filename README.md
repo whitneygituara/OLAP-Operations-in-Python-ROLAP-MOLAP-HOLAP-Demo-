@@ -19,7 +19,7 @@ MOLAP (Multidimensional OLAP): Using in-memory data cubes (via Pandas pivot tabl
 
 HOLAP (Hybrid OLAP): Combining relational and multidimensional approaches.
 
-Visualizations are included for each method to help beginners understand how OLAP operations are applied in real-world scenarios.
+Visualizations are included for each method to help understand how OLAP operations are applied in real-world scenarios.
 
 
 📂 What’s Inside
