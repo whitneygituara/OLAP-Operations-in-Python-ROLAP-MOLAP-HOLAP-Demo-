@@ -37,7 +37,14 @@ Visualizations: Generated using Seaborn and Matplotlib.
 
 Runs SQL queries on a SQLite database.
 
-Aggregates data such as average salary per department.
+Aggregates data such as average salary per department. 
+
+Pros: Handles very large datasets.
+
+Cons: Querying can be slower than MOLAP.
+
+👉 In this demo:
+We calculate the average salary per department using SQL queries on SQLite.
 
 Example visualization: bar chart of department vs average salary.
 
@@ -47,11 +54,32 @@ Uses Pandas pivot tables to build in-memory cubes.
 
 Slices data by department and age.
 
+Pros: Fast querying once the cube is built.
+
+Cons: Requires enough memory, less scalable for very large datasets.
+
+👉 In this demo:
+We build a salary cube with dimensions:
+
+Rows = Department
+
+Columns = Age
+
+Values = Average salary
+
 Example visualization: heatmap of salaries by department and age.
 
 🔹 HOLAP (Hybrid OLAP)
 
-Combines SQL queries (ROLAP) with Pandas aggregation (MOLAP).
+👉 In this demo:
+We fetch detailed data using SQL (ROLAP) and then use Pandas to build summaries (MOLAP).
+Combines SQL queries (ROLAP) with Pandas aggregation (MOLAP): 
+
+Stores detailed data in relational databases but pre-computes summaries in cubes.
+
+Pros: Balanced speed and scalability.
+
+Cons: More complex to implement.
 
 Summarizes average salary per department.
 
